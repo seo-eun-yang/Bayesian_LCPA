@@ -1,8 +1,3 @@
----
-title: "README"
-output: html_document
----
-
 # Identifying Latent States and Trajectories with Bayesian Latent Class Profile Analysis
 
 
