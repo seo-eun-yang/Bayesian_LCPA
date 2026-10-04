@@ -86,18 +86,32 @@ the execution order and application-specific inputs.
 
 ## Data Availability
 
-The empirical applications rely on data obtained from their original
-providers and subject to their respective access requirements:
+This repository contains the code and supporting materials necessary to reproduce
+the analyses reported in the manuscript. The original raw datasets are **not
+redistributed in this repository** because they are subject to the access,
+licensing, and confidentiality requirements of their respective data providers.
 
--   **American National Election Studies (ANES)** --- 2016--2020--2024
-    Panel Study
--   **Swiss Household Panel (SHP)** --- 2017, 2020, and 2023 waves
--   **Threat and Imposition of Sanctions (TIES) 4.0**
+The empirical applications use the following datasets:
 
-Because access and redistribution conditions are determined by the
-original data providers, users should obtain any restricted source data
-directly from those providers before running the corresponding
-replication scripts.
+- **American National Election Studies (ANES)** — 2016–2020–2024 Panel Study.
+  Users should obtain the source data directly from ANES and comply with the
+  applicable terms of use.
+
+- **Swiss Household Panel (SHP)** — 2017, 2020, and 2023 waves.
+  The SHP data are not included in this repository because access and
+  redistribution are governed by the data provider's confidentiality and
+  licensing requirements. Researchers wishing to reproduce the SHP analysis
+  should obtain authorized access to the data directly from the Swiss Household
+  Panel.
+
+- **Threat and Imposition of Sanctions (TIES) 4.0** — sanctions episode data.
+  Users should obtain the source data from the original data provider and comply
+  with the applicable terms of use.
+
+The replication scripts are designed to reproduce the analyses once the required
+source datasets have been obtained and placed in the appropriate local data
+directories. No confidential or restricted raw data are included in this
+repository.
 
 ## Citation
 
